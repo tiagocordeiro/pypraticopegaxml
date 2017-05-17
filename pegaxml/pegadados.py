@@ -4,7 +4,7 @@ import xmltodict
 
 def lista_titulos():
     """Retorna os títulos dos CDs do xml
-    
+
     :return: list
     """
 
@@ -24,4 +24,3 @@ if __name__ == '__main__':
 
     for titulo in titulos:
         print(titulo)
-
