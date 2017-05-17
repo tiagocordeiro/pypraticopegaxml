@@ -18,4 +18,10 @@ def lista_titulos():
 
 
 if __name__ == '__main__':
-    print(lista_titulos())
+    print('Total de ', len(lista_titulos()), 'títulos', lista_titulos())
+
+    titulos = lista_titulos()
+
+    for titulo in titulos:
+        print(titulo)
+
